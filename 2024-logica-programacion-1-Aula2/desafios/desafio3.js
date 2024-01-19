@@ -4,7 +4,7 @@
 
 let contador = 1;
 while (10 >= contador) {
-    alert(contador);
+    console.log(contador);
     contador++;
 }
 
@@ -12,14 +12,14 @@ while (10 >= contador) {
 
 let contador2 = 10;
 while (contador2 >= 0) {
-    alert(contador2);
+    console.log(contador2);
     contador2--;
 }
 
 // 3. Crea un programa de cuenta regresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
 
 let number = prompt("Ingrese un número: ");
-while (0 <= number) {
+while (number >= 0) {
     console.log(number);
     number--;
 }
@@ -27,7 +27,7 @@ while (0 <= number) {
 // 4. Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
 let number2 = prompt("Ingrese un número: ");
 let cuentaprog = 0;
-while (cuentareg <= number2) {
-    console.log(cuentareg);
-    cuentareg++;
+while (cuentaprog <= number2) {
+    console.log(cuentaprog);
+    cuentaprog++;
 }

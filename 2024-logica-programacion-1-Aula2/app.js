@@ -1,11 +1,12 @@
 alert('Bienvenido al juego del número secreto');
-let numeroSecreto = Math.floor(Math.random()*10) + 1;
+let numMaximo = 50;
+let numeroSecreto = Math.floor(Math.random()*numMaximo) + 1;
 let numeroUsuario = 0;
 let attempts = 1;
-let maxAttempts = 3;
+let maxAttempts = 5;
 
 while (numeroUsuario != numeroSecreto) {
-    numeroUsuario = parseInt(prompt("¿Me indicas un número por favor? "));
+    numeroUsuario = parseInt(prompt("¿Me indicas un número entre 1 al " + numMaximo + ", por favor? "));
     console.log("Valor del intento: ", numeroUsuario);
     console.log('Resultado de la comparación:', numeroUsuario == numeroSecreto);
 

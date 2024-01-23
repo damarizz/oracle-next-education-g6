@@ -1,9 +1,18 @@
-let titulo = document.querySelector('h1'); // permite acceder a c/u de los elementos
-let parrafo = document.querySelector("p");
+let numeroSecreto = generarNumeroSecreto();
+console.log(numeroSecreto);
 
-titulo.innerHTML = "Juego del Número Secreto";
-parrafo.innerHTML = "Indica un número del 1 al 10.";
+function asignarTextoElemento (elemento, texto) {
+    let elementoHtml = document.querySelector(elemento); // permite acceder a c/u de los elementos
+    elementoHtml.innerHTML = texto;
+}
 
 function intentoDeUsuario() {
     alert("Click desde el botón");
 }
+
+function generarNumeroSecreto () {
+    return Math.floor(Math.random()*10) + 1;
+}
+
+asignarTextoElemento('h1', 'Juego del Número Secreto');
+asignarTextoElemento('p', 'Ingresa un número del 1 al 10');

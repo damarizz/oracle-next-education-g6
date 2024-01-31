@@ -1,5 +1,5 @@
-body{
-
+header{
+    margin-left: 30px;
 }
 
 .principal{
@@ -11,7 +11,7 @@ body{
     width: 100%;
 }
 
-h1{
+.titulo-centralizado{
     text-align: center;
 }
 
@@ -32,9 +32,6 @@ em strong{
     padding: 30px;
 }
 
-h2{
-    text-align: center;
-}
 
 ul{
     display: inline-block; /* Que ocupe solo el espacio de su contenido y que los espaciamientos, tanto de la parte de arriba, inferiores, superiores, inferiores, derechos, izquierdos, se puedan ajustar, puedan ser ajustables.*/

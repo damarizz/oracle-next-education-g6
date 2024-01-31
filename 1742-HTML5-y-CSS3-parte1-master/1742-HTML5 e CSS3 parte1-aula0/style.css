@@ -1,5 +1,10 @@
 body{
+
+}
+
+.principal{
     background: #CCCCCC;
+    padding: 20px;
 }
 
 #banner{
@@ -20,4 +25,28 @@ p{
 
 em strong{
     color: red;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block; /* Que ocupe solo el espacio de su contenido y que los espaciamientos, tanto de la parte de arriba, inferiores, superiores, inferiores, derechos, izquierdos, se puedan ajustar, puedan ser ajustables.*/
+    vertical-align: top;
+    margin-right: 15%;
+    width: 20%;
+}
+
+.items{
+    font-style: italic;
+}
+
+.imagenDiferenciales{
+    width: 50%;
 }

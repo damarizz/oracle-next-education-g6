@@ -35,7 +35,7 @@ function generarNumeroSecreto () {
     console.log(numGenerado);
     // si ya sorteamos todos los números
     if (listaNumerosGenerados.length == numMaximo) {
-        asignarTextoElemento('p', 'Ya se sortearon todos los números posibles')
+        asignarTextoElemento('p', 'Ya se sortearon todos los números posibles. ¡Gracias por jugar!')
         // faltaría bloquear el botón de intentar y que sea nuevo juego y limpias la lista
     } else {
         if (listaNumerosGenerados.includes(numGenerado)) { // returns true or false
@@ -49,7 +49,7 @@ function generarNumeroSecreto () {
 }
 
 function condicionesIniciales() {
-    asignarTextoElemento('h1', 'Juego del Número Secreto');
+    asignarTextoElemento('h1', 'JUEGO DEL NÚMERO SECRETO');
     asignarTextoElemento('p', `Ingresa un número del 1 al ${numMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;

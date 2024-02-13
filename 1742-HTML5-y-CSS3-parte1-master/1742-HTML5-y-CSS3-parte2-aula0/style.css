@@ -158,6 +158,10 @@ td, th{
     width: 100%;
 }
 
+.principal p:not(#mision){
+    background: orange;
+}
+
 .principal{
     background: #FEFEFE;
     padding: 3em;

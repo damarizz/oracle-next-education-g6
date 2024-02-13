@@ -158,10 +158,6 @@ td, th{
     width: 100%;
 }
 
-.principal p:not(#mision){
-    background: orange;
-}
-
 .principal{
     background: #FEFEFE;
     padding: 3em;
@@ -239,6 +235,12 @@ td, th{
 
 .imagen-diferenciales{
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 5px #000000;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
 }
 
 .video{
